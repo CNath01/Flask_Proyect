@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #B8E7E6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Alineación de botones a la derecha */
+.right-buttons {
+    text-align: right;
+}
+
+.right-buttons .btn {
+    margin-left: 10px;
+}
+.btn-add-task {
+    background-color: #fff;
+    color: #7AC4C3;
+    border: 2px solid #7AC4C3;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-add-task:hover {
+    background-color: #f0f0f0;
+}
+
+.center {
+    text-align: center;
+}
+.task-actions {
+    float: right;
+}
+
+.task-actions .btn-edit,
+.task-actions .btn-delete {
+    background-color: #f0f0f0;
+    color: #7AC4C3;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.task-actions .btn-edit:hover,
+.task-actions .btn-delete:hover {
+    background-color: #e0e0e0;
+}
+.task-details {
+    max-width: 70%;
+    float: left;
+}
+
+.task-actions {
+    float: right;
+}
+
+.task-actions .btn-edit,
+.task-actions .btn-delete {
+    background-color: #f0f0f0;
+    color: #7AC4C3;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.task-actions .btn-edit:hover,
+.task-actions .btn-delete:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilos para el formulario de agregar tarea */
+.form-add-task {
+    max-width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-add-task input[type="text"],
+.form-add-task textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* para incluir el relleno y el borde en el ancho total */
+}
+
+.form-add-task input[type="submit"] {
+    background-color: #7AC4C3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.form-add-task input[type="submit"]:hover {
+    background-color: #7AC4C3;
+}
