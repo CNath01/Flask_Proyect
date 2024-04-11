@@ -56,7 +56,7 @@ a {
     margin-bottom: 20px;
 }
 
-/* Alineación de botones a la derecha */
+
 .right-buttons {
     text-align: right;
 }
@@ -126,7 +126,7 @@ a {
     background-color: #e0e0e0;
 }
 
-/* Estilos para el formulario de agregar tarea */
+/* FORM ADD_TASK*/
 .form-add-task {
     max-width: 70%;
     margin: 20px auto;
@@ -143,7 +143,7 @@ a {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; /* para incluir el relleno y el borde en el ancho total */
+    box-sizing: border-box; 
 }
 
 .form-add-task input[type="submit"] {
@@ -158,5 +158,42 @@ a {
 }
 
 .form-add-task input[type="submit"]:hover {
+    background-color: #7AC4C3;
+}
+/* FORM EDIT_TASK*/
+.form-edit-task {
+    max-width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-edit-task label {
+    font-weight: bold;
+}
+
+.form-edit-task input[type="text"],
+.form-edit-task textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-edit-task input[type="submit"] {
+    background-color: #7AC4C3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.form-edit-task input[type="submit"]:hover {
     background-color: #7AC4C3;
 }
